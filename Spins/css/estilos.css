@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .section {
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  .scrollable {
+    height: calc(100vh - 500px);    overflow-y: scroll;
+  }
+  
+  .scroll-content {
+    padding: 20px;
+  }
+  /* Estilos para los botones */
+.button {
+  display: inline-block;
+  padding: 5px 6px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-size: 15px;
+  margin: 2px;
+}
+.button:hover {
+  background-color: #ddd;
+}
+/* Estilos para la imagen */
+
+/* Estilos para los botones seleccionados */
+.button.selected {
+  background-color: #00cc00;
+  color: white;
+}
+.titulo{
+color:red;
+font-size: large;
+
+}
+.image{
+    height: 500px;
+
+}
+
+
+.titulo2{
+color:rgb(165, 34, 246);
+font-size: large;
+
+}
